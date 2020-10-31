@@ -1,0 +1,25 @@
+body
+{
+    background-color: orangered;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input
+{
+    margin-top: 100px;
+}
+
+#button
+{
+    width: 30%;
+    margin-top: 100px;
+}

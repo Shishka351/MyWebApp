@@ -1,0 +1,22 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px
+}
+
+div 
+{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 100px;
+    border-top-color: firebrick;
+    border-right-color: green;
+    border-bottom-color: blue;
+}
