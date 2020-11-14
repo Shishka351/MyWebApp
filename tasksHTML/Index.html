@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div>
+        <div class="topbar">
+          <img id="logo" src="http://pngimg.com/uploads/chrome_logo/chrome_logo_PNG3.png" />
+          <input id="text" placeholder="Тебе чего нужно сделать?" type="text" />
+          <button onclick="NewTask()">
+              Создать задание
+          </button>
+        </div>
+        <div id="tasks" class="content">
+          <div>
+            <img id="box1" class="checkbox" src="https://d29fhpw069ctt2.cloudfront.net/clipart/89484/preview/checkbox_unchecked_preview_48d2.png" onclick="Done('box1')" />
+            <a href="#3">Задание 1</a>
+          </div>
+          <div>
+            <img class="checkbox" src="https://d29fhpw069ctt2.cloudfront.net/clipart/89484/preview/checkbox_unchecked_preview_48d2.png" id="box2" onclick="Done('box2')"/>
+            <a href="#2">Задание 2</a>
+          </div>
+          <div>
+            <img class="checkbox" src="https://d29fhpw069ctt2.cloudfront.net/clipart/89484/preview/checkbox_unchecked_preview_48d2.png" id="box3" onclick="Done('box3')"/>
+            <a href="#1">Задание 3</a>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
