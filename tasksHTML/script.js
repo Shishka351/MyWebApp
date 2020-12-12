@@ -28,7 +28,7 @@ function NewTask() {
     var text = document.getElementById("text").value;
     var tasks = document.getElementById("tasks");
     var task = document.createElement("div");
-    task.innerHTML = '<img id=' + id + ' class="checkbox" src="https://d29fhpw069ctt2.cloudfront.net/clipart/89484/preview/checkbox_unchecked_preview_48d2.png" onclick="Done(' + id + ')"/><a href="#2">' + text + '</a>'
+    task.innerHTML = '<img id=' + id + ' class="checkbox" src="https://d29fhpw069ctt2.cloudfront.net/clipart/89484/preview/checkbox_unchecked_preview_48d2.png" onclick="Done(' + id + ')"/>' + text
     tasks.appendChild(task);
     document.getElementById("text").value = ""
 }
