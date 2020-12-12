@@ -52,7 +52,8 @@ body
     position: absolute;
     top: 50%;
     right: 10%;
-    transform: translate(0, -50%)
+    transform: translate(0, -50%);
+    font-size: 45px;
 }
 
 .checkbox
