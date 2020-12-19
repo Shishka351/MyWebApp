@@ -29,10 +29,18 @@ body
 .task
 {
     text-indent: 10px;
-    background-color: cornflowerblue;
+    background-color: rgb(224, 232, 245);
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+.delete
+{
+    background-color: crimson;
 }
 
 #text
@@ -42,7 +50,7 @@ body
     border-radius: 5px;
     background-color: white;
     border-color: lightgrey;
-    color: lightgray;
+    color: black;
     text-align: left;
     text-indent: 20px;
     position: absolute;
@@ -50,7 +58,7 @@ body
     left: 10%;
     transform: translate(0, -50%);
     font-style: italic;
-}
+}   
 
 #btn
 {
@@ -74,7 +82,7 @@ body
 
 #wrapper
 {
-    background-color: lightgray;
+    background-color: #f4f7fc;
     display: block;
     width: 800px;
     margin-left: auto;
